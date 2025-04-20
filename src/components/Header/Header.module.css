@@ -1,0 +1,38 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem 1rem;
+  background-color: var(--color-secondary);
+  box-shadow: var(--shadow-button);
+  font-family: var(--font-title);
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+  background-color: var(--btn-primary-bg);
+  box-shadow: var(--shadow-button);
+  transition: var(--transition);
+
+  &:hover {
+    background-color: var(--btn-primary-bg-hover);
+  }
+}
+
+.active {
+  text-decoration: underline;
+  color: var(--color-secondary-dark);
+}

@@ -1,3 +1,38 @@
+:root {
+  --color-primary: #ffd54f;
+  --color-primary-dark: #fbc02d;
+  --color-secondary: #4fc3f7;
+  --color-secondary-dark: #0288d1;
+
+  --color-text: #212121;
+  --color-light-text: #ffffff;
+
+  --color-bg: #fefefe;
+  --color-bg-alt: #f0f8ff;
+
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-bg-hover: var(--color-primary-dark);
+  --btn-primary-text: var(--color-text);
+
+  --btn-secondary-bg: var(--color-secondary);
+  --btn-secondary-bg-hover: var(--color-secondary-dark);
+  --btn-secondary-text: var(--color-light-text);
+
+  --shadow-card: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-button: 0 4px 8px rgba(0, 0, 0, 0.8);
+  --shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+  --font-title: 'Montserrat', sans-serif;
+  --font-text: 'Roboto', sans-serif;
+
+  --radius: 8px;
+  --transition: 0.3s ease;
+
+  background-color: var(--color-bg-alt);
+  color: var(--color-text);
+  font-size: 16px;
+}
+
 h1,
 h2,
 h3,

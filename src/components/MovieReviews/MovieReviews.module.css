@@ -1,0 +1,39 @@
+.reviews_container {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reviews_item_container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border: 1px solid black;
+  border-radius: var(--radius);
+  padding: 0.5rem;
+}
+
+.reviews_author {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.no_reviews {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.loader_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+}
